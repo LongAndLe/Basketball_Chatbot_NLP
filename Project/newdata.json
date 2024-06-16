@@ -1,0 +1,13 @@
+{
+    "intents": [
+        {
+            "tag": "Vấn đề mới 1",
+            "patterns": [
+                "& C:/Users/Long/AppData/Local/Programs/Python/Python310/python.exe \"d:/Desktop/CHTDTTT/Basketball Chatbot/Project/cbr.py\""
+            ],
+            "responses": [
+                ""
+            ]
+        }
+    ]
+}

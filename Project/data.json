@@ -1,0 +1,350 @@
+{
+    "intents": [
+      {
+        "tag": "Bóng rổ",
+        "patterns": ["Bóng rổ là gì?", "Bóng rổ","Bóng rổ là gì", "Giải thích về bóng rổ", "Định nghĩa bóng rổ", "Môn bóng rổ",
+         "Bong ro la gi?", "Bong ro", "Bong ro la gi", "Giai thich ve bong ro", "Dinh nghia bong ro", "Mon bong ro"],
+        "responses": ["Bóng rổ là một môn thể thao được chơi trên sân hình chữ nhật với hai rổ ở hai đầu. Mỗi đội có năm cầu thủ trên sân, với mục tiêu ghi điểm bằng cách ném bóng vào rổ của đối phương."]
+      },
+      {
+        "tag": "Lỗi cản người trong bóng rổ Blocking foul",
+        "patterns": ["Sử dụng bản thân của mình để ngăn cản đường chạy của đối phương, khiến họ vấp ngã mà không chạm vào bóng trước đó là lỗi gì?","Su dung ban than de ngan can duong chay cua doi phuong, khien ho vap nga ma khong cham vao bong truoc do la loi gi?.","Không duy trì khoảng cách an toàn với đối thủ hoặc sử dụng cơ thể mình để chặn đối thủ một cách quá mạnh,có thể gây nguy hiểm là lỗi gì?","Khong duy tri khoang cach an toan voi doi thu hoac su dung co the minh de chan doi thu mot cach qua manh, co the gay nguy hiem la loi gi?"],
+        "responses": ["Là lỗi cản người trong bóng rổ (Blocking foul): Cầu thủ sử dụng bản thân của mình để ngăn cản đường chạy của đối phương, khiến họ vấp ngã mà không chạm vào bóng trước đó, điều này có thể gây nguy hiểm và được xem là vi phạm quy tắc của trò chơi. Cầu thủ này sẽ bị trọng tài thổi phạt vì vi phạm lỗi cản người trong bóng rổ bằng các biện pháp kỷ luật như việc trao quả phạt hoặc đưa đối thủ bị lỗi vào vị trí đối đầu trực tiếp với phía nơi bóng rơi xuống."]
+      },
+      {
+        "tag": "Lỗi sử dụng cùi trỏ Elbowing",
+        "patterns": ["cầu thủ cố tình dùng cùi chỏ, để cản đối phương và gây ra va chạm là lỗi gì?", "Cau thu co tinh dung cui cho, de can doi phuong va gay ra va cham la loi gi", "cầu thủ sử dụng cùi chỏ của cánh tay để tấn công hoặc làm tổn thương đối thủ là lỗi gì?", "cau thu su dung cui cho cua canh tay de tan cong hoac lam ton thuong doi thu la loi gi"],
+        "responses": ["Là lỗi sử dụng cùi trỏ (Elbowing): Đây là một lỗi trong bóng rổ nặng, lỗi này xảy ra khi cầu thủ cố tình dùng cùi chỏ, để cản đối phương (gây ra va chạm). Người chơi thực hiện lỗi sử dụng cùi chỏ có thể bị xử phạt cá nhân, đối thủ được hưởng quả phạt từ đường tự do hoặc được đưa vào tình huống quả phạt.Nếu hành động sử dụng cùi chỏ gây chấn thương nặng hoặc được xem là một hành động không an toàn, cầu thủ có thể bị loại khỏi trận đấu và đối mặt với các biện pháp kỷ luật nặng hơn từ cơ quan quản lý bóng rổ."]
+      },
+      {
+        "tag": "Lỗi giữ người trong bóng rổ Holding",
+        "patterns": ["cầu thủ dùng tay hoặc chân cản trở di chuyển của đối thủ là lỗi gì?", "Cau thu dung tay hoac chan can tro di chuyen cua doi thu la loi gi","cầu thủ giữ hoặc kẹp lấy người đối thủ để ngăn chặn hoặc kiểm soát vị trí của anh ta trong tình huống không có bóng là lỗi gì?","cau thu giu hoac kep lay nguoi doi thu de ngan chan hoac kiem soat vi tri cua anh ta trong tinh huong khong co bong la loi gi"],
+        "responses": ["Là lỗi giữ người trong bóng rổ (Holding): Lỗi này xảy ra khi cầu thủ dùng tay hoặc chân cản trở di chuyển của đối thủ. Với hành vi này cầu thủ sẽ bị thổi phạt lỗi cản người trong bóng rổ. Nếu đội bóng bị lỗi giữ người, đối thủ sẽ được hưởng quả phạt hoặc quả phạt đơn tùy thuộc vào việc có đang ở trong vị trí đưa bóng vào trận hay không. Trọng tài có thể áp đặt thẻ phạt cho người chơi thực hiện lỗi giữ người, đặc biệt nếu hành động này là cố ý hoặc gây nguy hiểm."]
+      },
+      {
+        "tag": "Lỗi tấn công trong bóng rổ Charging",
+        "patterns": ["cầu thủ tấn công, dẫn bóng va chạm với cầu thủ phòng ngự của đối phương đã chiếm một vị trí cố định trên sân từ trước đó là lỗi gì?", "cau thu tan cong, dan bong va cham voi cau thu phong ngu cua doi phuong da chiem mot vi tri co dinh tren san tu truoc do la loi gi", "người chơi tấn công đâm vào đối thủ đang ở trong tư thế đứng chặn và gây chấn thương là lỗi gì?","nguoi choi tan cong dam vao doi thu dang o trong tu the dung chan va gay chan thuong la loi gi"],
+        "responses": ["Là lỗi tấn công trong bóng rổ (Charging): Khi cầu thủ tấn công, dẫn bóng va chạm với cầu thủ phòng ngự của đối phương đã chiếm một vị trí cố định trên sân từ trước đó. Với hành động này cầu thủ tấn công sẽ bị thổi phạm một trong các lỗi kỹ thuật tấn công trong bóng rổ. Đội bóng phạm lỗi tấn công sẽ thường phải đối mặt với quả phạt hoặc quả phạt đơn, tùy thuộc vào vị trí của sự kiện trong trận đấu."]
+      },
+      {
+        "tag": "Lỗi ngáng chân đối phương Tripping",
+        "patterns": ["cầu thủ sử dụng chân để cản đối phương té ngã trên sân là lỗi gì?", "cau thu su dung chan de can doi phuong te nga tren san la loi gi", "người chơi cố tình hoặc vô tình làm ngã đối thủ bằng cách đặt chân hoặc chân lên trước mặt đối thủ, làm đối thủ mất thăng bằng và ngã là lỗi gì?","nguoi choi co tinh hoac vo tinh lam nga doi thu bang cach dat chan hoac chan len truoc mat doi thu, lam doi thu mat thang bang va nga la loi gi"],
+        "responses": ["Là lỗi ngáng chân đối phương (Tripping): Tình huống phạm lỗi này được tính khi cầu thủ sử dụng chân để cản đối phương té ngã trên sân.Hành động này không chỉ có thể dẫn đến chấn thương mà còn là một vi phạm quy tắc trong bóng rổ. Đội bóng bị lỗi ngáng chân đối phương thường phải đối mặt với quả phạt hoặc quả phạt đơn, tùy thuộc vào vị trí của sự kiện trong trận đấu."]
+      },
+      {
+        "tag": "Lỗi 3 giây",
+        "patterns": ["cầu thủ kiểm soát bóng trên sân và đồng hồ thi đấu đang chạy nhưng cầu thủ ở trong khu vực giới hạn của đối phương quá 3 giây là lỗi gì?", "cau thu kiem soat bong tren san va dong ho thi dau dang chay nhung cau thu o trong khu vuc gioi han cua doi phuong qua 3 giay la loi gi","cầu thủ của đội tấn công hoặc phòng ngự ở trong khu vực hạn chế (khu vực còn được biết đến là paint hoặc key) của đội mình trong thời gian dài hơn 3 giây liên tục là lỗi gì?","cau thu cua doi tan cong hoac phong ngu o trong khu vuc han che (khu vuc con duoc biet den la paint hoac key) cua doi minh trong thoi gian dai hon 3 giay lien tuc la loi gi"],
+        "responses": ["Là lỗi 3 giây trong bóng rổ là lỗi khi cầu thủ kiểm soát bóng trên sân và đồng hồ thi đấu đang chạy nhưng cầu thủ ở trong khu vực giới hạn của đối phương quá 3 giây. Nếu ở quá 3 giây sẽ bị lỗi 3s trong bóng rổ. Hình phạt trong bóng rổ với lỗi 3 giây là cho đối phương phát bóng ở biên tại vị trí phạm lỗi."]
+      },
+      {
+        "tag": "Lỗi phòng thủ trong bóng rổ Shooting Foul",
+        "patterns": ["cầu thủ phòng ngự va chạm với cầu thủ tấn công mà cầu thủ tấn công đang trong tư thế ném bóng là lỗi gì?", "cầu thủ phòng ngự cố tình hoặc vô tình làm tổn thương cầu thủ tấn công đang thực hiện cú ném (shot) và có cơ hội ghi điểm là lỗi gì?","cau thu phong ngu va cham voi cau thu tan cong ma cau thu tan cong dang trong tu the nem bong la loi gi","cau thu phong ngu va cham voi cau thu tan cong ma cau thu tan cong dang trong tu the nem bong la loi gi"],
+        "responses": ["Là lỗi phòng thủ trong bóng rổ(Shooting Foul) xảy ra khi cầu thủ phòng ngự va chạm với cầu thủ tấn công mà cầu thủ tấn công đang trong tư thế ném bóng. Đối với trường hợp cầu thủ phạm 1 trong các lỗi phòng thủ trong bóng rổ thì tùy theo vị trí của điểm xảy ra phạm lỗi bóng rổ mà cú ném phạt sẽ được tính là 2 hay 3 điểm, tùy theo cự ly quả phạt."]
+      },
+      {
+        "tag": "Lỗi kỹ thuật trong bóng rổ Technical Foul",
+        "patterns": ["cầu thủ có những hành vi phản cảm, quá khích như: Đu rổ, cử chỉ khiêu khích hoặc lăng mạ trọng tài là lỗi gì?", "cầu thủ, huấn luyện viên hoặc người trong sân gây ra hành động không chấp nhận được, thường là một hành vi không tôn trọng đối với trọng tài, đối thủ, hoặc quy tắc của trò chơi","cau thu co nhung hanh vi phan cam, qua khich nhu: Du ro, cu chi kieu khi hoac lang ma trong tai la loi gi?","cau thu, huan luyen vien hoac nguoi trong san gay ra hanh dong khong chap nhan duoc, thuong la mot hanh vi khong ton trong doi voi trong tai, doi thu, hoac quy tac cua tro choi la loi gi"],
+        "responses": ["Là lỗi kỹ thuật trong bóng rổ(Technical Foul) được tính khi các cầu thủ có những hành vi phản cảm, quá khích như: Đu rổ, cử chỉ khiêu khích hoặc lăng mạ trọng tài. Một lỗi kỹ thuật bóng rổ được tính bằng hai lỗi cá nhân. Với trường hợp cầu thủ bị lỗi kỹ thuật trong bóng rổ sẽ chịu hai quả ném phạt và mất quyền kiểm soát bóng trên sân."]
+      },
+      {
+        "tag": "Luật",
+        "patterns": ["Luật", "Luật chơi", "Luật bóng rổ", "Giải thích luật bóng rổ", "Giải thích luật", "Giải thích luật chơi",
+         "Luật chơi bóng rổ", "Luat", "Luat choi", "Luat bong ro", "Giai thich luat bong ro", "Giai thich luat", "Giai thich luat choi", 
+         "Luat choi bong ro"],
+        "responses": ["Luật bóng rổ chia ra thành luật cơ bản và luật chuyên nghiệp, ngoài ra còn có luật thi đấu bóng rổ 3x3 và luật bóng rổ 5x5."]
+      },
+      {
+        "tag": "Luật cơ bản",
+        "patterns": ["Luật cơ bản", "Luật bóng rổ cơ bản", "Bóng rổ cơ bản", "Luật chơi bóng rổ cơ bản", "Chơi bóng rổ cơ bản",
+         "Luat co ban", "Luat bong ro co ban", "Bong ro co ban", "Luat choi bong ro co ban", "Choi bong ro co ban",
+         "Giải thích luật cơ bản", "Giải thích luật bóng rổ cơ bản", "Giai thich luat bong ro co ban", "Giai thich luat co ban",
+          "Luật cơ bản gồm những gì", "Luat co ban gom nhung gi", "Luật cơ bản gồm những gì?", "Luat co ban gom nhung gi?"],
+        "responses": ["Luật bóng rổ cơ bản sẽ bao gồm các luật về: Sân đâu, Đội hình, Thời gian thi đấu, Điểm số, Cách xử lý bóng, Thay người, Lỗi vi phạm, Ném phạt.Các quy tắc và quy định chi tiết có thể thay đổi tùy theo cấp độ thi đấu và liên đoàn bóng rổ cụ thể. Ngoài ra, còn nhiều quy tắc cụ thể hơn mà trọng tài và lãnh đạo trận đấu sẽ quản lý."]
+      },
+      {
+        "tag": "Luật chuyên nghiệp",
+        "patterns": ["Luật chuyên nghiệp", "Luật bóng rổ chuyên nghiệp", "Bóng rổ chuyên nghiệp", "Luật chơi bóng rổ chuyên nghiệp",
+         "Chơi bóng rổ chuyên nghiệp", "Giải thích luật bóng rổ chuyên nghiệp", "Luật bóng rổ chuyên nghiệp gồm những gì?",
+         "Luat bong ro chuyen nghiep gom nhung gi", "Giai thich luat bong ro chuyen nghiep", "Choi bong ro chuyen nghiep",
+         "Luat choi bong ro chuyen nghiep", "Bong ro chuyen nghiep", "Luat bong ro chuyen nghiep?"],
+        "responses": ["Luật bóng rổ chuyên nghiệp sẽ gồm các luật của luật bóng rổ cơ bản và các luật bổ sung về: Thời gian tấn công, Hiệp phụ, Trang thiết bị cho thi đấu chuyên nghiệp,..."]
+      },
+      {
+        "tag": "Sân đấu",
+        "patterns": ["Sân đấu", "Quy định về sân đấu", "Luật về sân đấu", "Sân đấu bóng rổ", "Luật về sân đấu bóng rổ", "Quy định về sân đấu bóng rổ",
+         "Quy dinh ve san dau bong ro", "Luat ve san dau bong ro", "San dau bong ro", "Luat ve san dau", "Quy dinh ve san dau",
+         "San dau"],
+        "responses": ["Kích thước của sân đấu bóng rổ FIBA (Liên đoàn Bóng rổ Quốc tế) và NBA (Hội đồng Bóng rổ Quốc gia Hoa Kỳ) có một số sự khác biệt nhỏ. Dưới đây là thông tin về kích thước của sân đấu cho cả hai. Sân đấu FIBA (Quốc tế), Chiều dài sân: 28 mét (94 feet), Chiều rộng sân: 15 mét (50 feet), Vùng ba điểm (three-point line) ở đường ngoại cùng: Khoảng cách từ vòng cổ điển đến vùng ba điểm là 6,75 mét (22 feet và 1,75 inch) trên cả hai cánh. Sân đấu NBA (Hoa Kỳ): Chiều dài sân: 28,7 mét (94 feet và 6 inches), Chiều rộng sân: 15,2 mét (50 feet), Vùng ba điểm (three-point line) ở đường ngoại cùng: Khoảng cách từ vòng cổ điển đến vùng ba điểm là 7,24 mét (23 feet và 9 inches) trên cả hai cánh. Ngoài ra, còn có một số sự khác biệt như kích thước của vùng cô lập (key) và kích thước các băng ghế dự bị trên sân đấu giữa FIBA và NBA. Tuy nhiên, kích thước chung của sân đấu là như trên."]
+      },
+      {
+        "tag": "Mục tiêu",
+        "patterns": ["Mục tiêu của trận đấu", "Mục tiêu của trận đấu là gì?", "Muc tiêu của trận đấu là gì", "Mục tiêu",
+         "Mục tiêu của trận đấu bóng rổ", "Mục tiêu của trận đấu bóng rổ là gì?", "Muc tieu cua tran dau bong ro la gi",
+         "Muc tieu cua tran dau bong ro la gi?", "Muc tieu cua tran dau bong ro", "Muc tieu", "Muc tieu cua tran dau la gi",
+          "Muc tieu cua tran dau la gi?", "Muc tieu cua tran dau"],
+        "responses": ["Mục tiêu chính của trận đấu bóng rổ là ghi điểm bằng cách đưa bóng vào rổ của đối phương và ngăn đối phương ghi điểm. Đội nào ghi nhiều điểm hơn sẽ giành chiến thắng."]
+      },
+      {
+        "tag": "Thời gian",
+        "patterns": ["Thời gian", "Thời gian thi đấu", "Thời gian trận thi đấu", "Thời gian trận thi đấu bóng rổ", "Thoi gian tran thi dau bong ro", "Thoi gian tran thi dau", "Thoi gian thi dau", "Thoi gian"],
+        "responses": ["Trong trận đấu bóng rổ, thời gian thi đấu cả trận chia thành 4 hiệp (quarters), và thời gian thi đấu cả trận phụ thuộc vào cấp độ thi đấu và quy định cụ thể của liên đoàn hoặc tổ chức tổ chức giải đấu. NBA (Hội đồng bóng rổ quốc gia Hoa Kỳ): Trận đấu NBA có 4 hiệp, mỗi hiệp kéo dài 12 phút. Thời gian thi đấu cả trận là 48 phút. Quốc tế (FIBA): Trận đấu quốc tế của FIBA cũng bao gồm 4 hiệp, nhưng mỗi hiệp kéo dài 10 phút. Thời gian thi đấu cả trận là 40 phút. Lưu ý rằng thời gian trận đấu có thể biến đổi tùy theo tình huống, như thời gian dừng trận, ném phạt, và các quyết định của trọng tài."]
+      },
+      {
+        "tag": "Cách ghi điểm",
+        "patterns": ["Cách ghi điểm", "Cách để ghi điểm", "Ghi điểm", "Cách ghi điểm trong trận bóng", "Ghi điểm trong trận bóng", "Cách ghi điểm trong trận", "Cach ghi diem trong tran", "Ghi diem trong tran bong", "Cach ghi diem trong tran bong", "Cach ghi diem trong tran bong", "Ghi diem", "Cach de ghi diem", "Cach ghi diem"],
+        "responses": ["Có một số cách để ghi điểm trong bóng rổ. Điểm có thể được ghi bằng cách đưa bóng vào rổ thông qua lên rổ, úp rổ, nhảy ném bóng hay từ các cú ném phạt. Tùy từng trường hợp mà số điểm ghi được từ pha tấn công cũng khác nhau. Cách ghi điểm có thể thay đổi tùy theo quy tắc và luật đặc biệt của từng giải đấu, nhưng những cách cơ bản này sẽ áp dụng cho hầu hết các trận đấu bóng rổ."]
+      },
+      {
+        "tag": "Cách di chuyển bóng",
+        "patterns": ["Luật di chuyển bóng", "Cách di chuyển bóng", "Làm thế nào để di chuyển bóng", "Các cách di chuyển bóng", "Cac cach di chuyen bong", "Lam the nao de di chuyen bong", "Cach di chuyen bong", "Luat di chuyen bong"],
+        "responses": ["Di chuyển bóng trong bóng rổ là một kỹ thuật quan trọng để tạo ra cơ hội tấn công, tìm kiếm vị trí tốt để ghi điểm và tạo áp lực lên phòng thủ đối phương. Bóng được di chuyển bằng cách ném, chuyền, hoặc dẫn bóng. Một cầu thủ không được dẫn bóng quá 5 bước mà không ném, chuyền, hoặc nảy bóng."]
+      },
+      {
+        "tag": "Lỗi",
+        "patterns": ["Các lỗi trong bóng rổ", "Các lỗi", "Các lỗi thường gặp", "Các lỗi thường gặp trong bóng rổ", "Lỗi", "Lỗi trong bóng rổ", "Lỗi trong thi đấu bóng rổ", "Loi trong thi dau bong ro", "Loi trong bong ro", "Loi", "Cac loi thuong gap trong bong ro", "Cac loi thuong gap", "Cac loi", "Cac loi trong bong ro"],
+        "responses": ["Trong trận đấu bóng rổ, có nhiều loại lỗi khác nhau, từ lỗi cá nhân cho đến lỗi đội bóng. Dưới đây là một số loại lỗi phổ biến trong trận đấu bóng rổ: Lỗi đi bộ (Traveling), Lỗi double dribble, Lỗi palming, Lỗi ném phạt (Shooting Foul), Vi phạm Đảo bóng (Carrying). Ngoài ra còn có các lỗi về thời gian kiểm soát bóng ở các vị trí trên sân như lỗi 3 giây, lỗi 5 giây, lỗi 24 giây,..."]
+      },
+      {
+        "tag": "Thời gian tấn công",
+        "patterns": ["Thời gian tấn công", "Thời gian tấn công khi kiểm soát bóng", "Thời gian để tấn công", "Có bao nhiêu giây để tấn công từ khi cầm bóng", "Giới hạn thời gian tấn công", "Gioi han thoi gian tan cong", "Co bao nhieu giay de tan cong tu khi cam bong", "Thoi gian de tan cong", "Thoi gian tan cong khi kiem soat bong", "Thoi gian tan cong"],
+        "responses": ["Một đội có 24 giây để ném rổ sau khi giành quyền kiểm soát bóng. Nếu đội không ném rổ trong vòng 24 giây, đội đối phương sẽ được phát bóng."]
+      },
+      {
+        "tag": "Hiệp phụ",
+        "patterns": ["Hiệp phụ", "Thông tin về hiệp phụ", "Hiệp phụ trong bóng rổ", "Hiệp phụ của trận thi đấu bóng rổ", "Hiệp phụ trong thi đấu bóng rổ", "Hiep phu trong thi dau bong ro", "Hiep phu cua tran thi dau bong ro", "Hiep phu trong bong ro", "Thong tin ve hiep phu", "Hiep phu"],
+        "responses": ["Trong bóng rổ, hiệp phụ (overtime) là một phần của trò chơi, diễn ra khi hai đội có số điểm bằng nhau vào cuối thời gian chính thức. Hiệp phụ được sử dụng để xác định đội chiến thắng trong trường hợp trận đấu kết thúc hòa sau thời gian thi đấu chính thức.Thời gian thi đấu trong hiệp phụ có thể thay đổi tùy theo giải đấu và cấp độ thi đấu. Thông thường, hiệp phụ có thời gian ngắn hơn so với thời gian chính thức. Ví dụ, một hiệp phụ có thể được chơi trong 5 hoặc 10 phút.Quy tắc hiệp phụ có thể thay đổi tùy theo giải đấu, luật của tổ chức tổ chức sự kiện, và cấp độ thi đấu."]
+      },
+      {
+        "tag": "Trang phục thi đấu",
+        "patterns": ["Trang phục thi đấu", "Trang phục thi đấu bóng rổ", "Thi đấu bóng rổ mặc gì", "Mặc gì khi thi đấu bóng rổ", "Trang phục trong thi đấu bóng rổ", "Quy định về trang phục thi đấu", "Các quy định về trang phục thi đấu", "Các quy định về trang phục trong thi đấu bóng rổ", "Cac quy dinh ve trang phuc trong thi dau bong ro", "Cac quy dinh ve trang phuc thi dau", "Quy dinh ve trang phuc thi dau", "Trang phuc trong thi dau bong ro", "Mac gi khi thi dau bong ro", "Thi dau bong ro mac gi", "Trang phuc thi dau bong ro", "Trang phuc thi dau"],
+        "responses": ["Trang phục thi đấu trong bóng rổ thường được quản lý bởi tổ chức quản lý giải đấu hoặc liên đoàn bóng rổ, chẳng hạn như FIBA (Liên đoàn Bóng rổ Quốc tế) hoặc NBA (Hiệp hội Bóng rổ Quốc gia). Sau đây là một số quy định phổ biến về trang phục thi đấu trong bóng rổ: Cầu thủ phải mặc áo đấu, bao gồm áo in tên và số áo ở mặt sau và mặt trước của áo. Quần đùi của cầu thủ phải tuân theo quy định về chiều dài và màu sắc. Cầu thủ phải mặc giày thể thao phù hợp với sân đấu và không gây nguy hiểm cho chính họ hoặc người khác. Các phụ kiện như băng đeo cổ tay, bao tay, hoặc găng tay có thể được sử dụng. Huấn luyện viên và quản lý cũng phải tuân theo quy định về trang phục. Các giải đấu chuyên nghiệp thường có quy định về quảng cáo trên trang phục thi đấu, bao gồm quảng cáo của nhà tài trợ và nhà cung cấp trang phục."]
+      },
+      
+        {
+          "tag": "Các hệ thống thi đấu bóng rổ phổ biến",
+          "patterns": ["Có bao nhiêu hệ thống thi đấu bóng rổ phổ biến hiện nay?", 
+                "Xin vui lòng giới thiệu cho tôi các hệ thống thi đấu bóng rổ phổ biến mà người ta sử dụng ngày nay.",
+                "Hãy nêu rõ các loại hệ thống thi đấu bóng rổ mà các đội và các liên đoàn thể thao đang sử dụng phổ biến.",
+                "Có những hệ thống thi đấu bóng rổ nào đang được ưa chuộng và phổ biến trong thế giới thể thao hiện nay?", 
+                "Tôi muốn tìm hiểu về cách bóng rổ được tổ chức và thi đấu ở các hệ thống khác nhau. Bạn có thể giúp tôi với thông tin này không?", 
+                "Có những hệ thống thi đấu bóng rổ nào mà các giải đấu quốc tế thường sử dụng?", 
+                "Khi nói về hệ thống thi đấu bóng rổ, điểm đặc biệt nào nên được chú ý?", 
+                "Xin vui lòng cung cấp thông tin về các hệ thống thi đấu bóng rổ mà các giải đấu quốc tế và quốc gia thường áp dụng.", 
+                "Tôi đang quan tâm đến các hệ thống thi đấu bóng rổ khác nhau trên thế giới. Bạn có thể chia sẻ thông tin về chúng không?"],
+          "responses": ["Có nhiều hệ thống giải đấu khác nhau được tổ chức có thẩm quyền đưa ra các quy định. NBA và FIBA là phổ biến nhất."]
+          },
+          {
+          "tag": "Tên viết tắt",
+          "patterns": ["Tên viết tắt của NBA là gì và tên viết tắt của FIBA là gì?", 
+                "Xin vui lòng cho biết tên viết tắt của NBA và FIBA.",  
+                "Có thể nêu rõ tên viết tắt của hai hệ thống bóng rổ nổi tiếng là NBA và FIBA không?", 
+                "Khi đề cập đến NBA và FIBA, tên viết tắt chính xác của chúng là gì?", 
+                "Tôi muốn biết tên viết tắt của hai tổ chức bóng rổ quan trọng là NBA và FIBA. Bạn có thể giúp tôi không?", 
+                "Tên viết tắt của hai tổ chức quản lý bóng rổ là gì? Một là NBA và một là FIBA.", 
+                "Có thể đưa ra tên viết tắt chính xác của NBA và FIBA không?", 
+                "Xin hãy cho tôi biết tên viết tắt của NBA và FIBA.", 
+                "Tôi đang tìm hiểu về bóng rổ, và tôi muốn biết tên viết tắt của NBA và FIBA. Bạn có thể cung cấp thông tin này cho tôi không?", 
+                "Tên viết tắt của hai tổ chức quản lý bóng rổ lớn trên thế giới là gì? Một là NBA và một là FIBA."],
+          "responses": ["NBA là từ viết tắt của ‘(tiếng Anh) National Basketball Association’- Hiệp hội bóng rổ quốc gia'. FIBA là từ viết tắt của ‘(tiếng Pháp) Fédération Internationale de Basketball’- Liên đoàn bóng rổ quốc tế."]
+        },
+        {
+          "tag": "Kích thước sân",
+          "patterns": ["Kích thước sân thi đấu của NBA và FIBA có gì khác biệt?",
+                "Sân thi đấu NBA và FIBA khác nhau như thế nào về kích thước?",
+                "Hãy so sánh kích thước sân thi đấu giữa NBA và FIBA.",
+                "Sự khác biệt chính giữa kích thước sân thi đấu của NBA và FIBA là gì?",
+                "Vui lòng giải thích sự khác nhau về các yếu tố kích thước sân chơi giữa NBA và FIBA.",
+                "Khi so sánh kích thước sân thi đấu của NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Các quy tắc về kích thước sân thi đấu có thay đổi khi chuyển từ NBA sang FIBA không?",
+                "Thông tin về sự khác biệt về kích thước sân chơi giữa NBA và FIBA là gì?",
+                "Tôi muốn biết sự khác biệt về kích thước sân thi đấu giữa hệ thống NBA và FIBA, bạn có thể cho tôi biết không?"],
+          "responses": ["Sân thi đấu tiêu chuẩn NBA là dài 28m65, rộng 15m24. Trong khi đó, kích thước tiêu chuẩn theo quy định của FIBA là 28m và rộng 15m."]
+        },
+        {
+          "tag": "Cự ly khu vực 3 điểm",
+          "patterns": ["Cự ly từ vùng 3 điểm trong NBA và FIBA khác nhau như thế nào?",
+                "Hãy so sánh khoảng cách từ vùng 3 điểm giữa NBA và FIBA.",
+                "Có sự khác biệt nào về cự ly khu vực 3 điểm giữa NBA và FIBA không?",
+                "Vui lòng giải thích cự ly khu vực 3 điểm giữa NBA và FIBA, và điểm khác biệt nào đáng chú ý nhất?",
+                "Khi nói về khu vực 3 điểm, NBA và FIBA có sự khác biệt về cự ly như thế nào?",
+                "Cự ly từ vùng 3 điểm trong NBA và FIBA có thay đổi khi so sánh hai hệ thống này không?",
+                "Xin vui lòng cung cấp thông tin về sự khác biệt về cự ly khu vực 3 điểm giữa NBA và FIBA.",
+                "Khi thi đấu bóng rổ, có điểm gì khác biệt trong cự ly khu vực 3 điểm giữa NBA và FIBA mà người chơi cần lưu ý?",
+                "Tôi muốn biết về cự ly từ vùng 3 điểm của NBA và FIBA. Bạn có thể giúp tôi hiểu rõ hơn về điều này không?",
+                "Cự ly từ vùng 3 điểm của NBA và FIBA khác nhau như thế nào, và điều này có ảnh hưởng đến lối chơi không?"],
+          "responses": ["Cùng với sân lớn hơn, vạch ba điểm của NBA cũng cách xa rổ hơn so. Sân FIBA khoảng cách từ rổ đến vạch ba điểm là 6m75. Trong khi đó, sân NBA khoảng cách là 7m24. Do đó những cú ném ba điểm ở NBA sẽ khó hơn so với FIBA, đây là điều khiến các tân binh đến với NBA gặp nhiều khó khăn để thích nghi."]
+        },
+        {
+          "tag": "Thời gian thi đấu",
+          "patterns": ["Thời gian thi đấu trong NBA và FIBA có điểm khác biệt nào không?",
+                "Hãy so sánh độ dài trận đấu giữa NBA và FIBA.",
+                "Có sự khác biệt nào về thời gian thi đấu giữa NBA và FIBA?",
+                "Xin vui lòng giải thích cách thời gian thi đấu được quản lý trong NBA và FIBA, và điểm khác biệt nào quan trọng nhất?",
+                "Thời gian thi đấu của NBA và FIBA có bất kỳ điểm gì khác biệt không?",
+                "Cách tổ chức thời gian trận đấu trong NBA và FIBA có gì đặc biệt và khác biệt?",
+                "Xin hãy cho tôi biết về sự khác biệt về thời gian thi đấu giữa NBA và FIBA, và điều này có ảnh hưởng đến trận đấu không?",
+                "Có những quy tắc nào về thời gian thi đấu cần tuân theo khi chuyển từ NBA sang FIBA?",
+                "Tôi muốn hiểu rõ về thời gian thi đấu của NBA và FIBA. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Khi so sánh thời gian thi đấu giữa NBA và FIBA, điểm khác biệt nào nên được chú ý?"],
+          "responses": ["Mỗi hiệp đấu ở NBA kéo dài 12 phút, trong khi mỗi hiệp thi đấu của FIBA dài 10 phút. Thời gian hiệp phụ kéo dài 5 phút trong cả hai hệ thống bóng rổ."]
+        },
+        {
+          "tag": "Số lượng trọng tài trong mỗi trận đấu",
+          "patterns": ["Trong NBA và FIBA, có bao nhiêu trọng tài được sử dụng để điều khiển một trận đấu?",
+                "Hãy so sánh số lượng trọng tài trong NBA và FIBA khi tổ chức một trận đấu.",
+                "Có sự khác biệt về số lượng trọng tài điều khiển trận đấu giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA quản lý số lượng trọng tài trong một trận đấu, và điểm khác biệt nào đáng chú ý nhất.",
+                "Trong NBA và FIBA, có bao nhiêu trọng tài được đặt vào mỗi trận đấu?",
+                "Có những quy tắc cụ thể nào về số lượng trọng tài trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về sự khác biệt về số lượng trọng tài trong NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh số lượng trọng tài giữa NBA và FIBA, điểm khác biệt nào nên được chú ý?",
+                "Tôi muốn hiểu rõ về cách NBA và FIBA tổ chức số lượng trọng tài trong trận đấu. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về số lượng trọng tài trong NBA và FIBA mà tôi nên biết không?"],
+          "responses": ["Ở NBA, ba trọng tài được chỉ định cho mỗi trận đấu, trong khi ở FIBA, chỉ có hai trọng tài được chỉ định cho mỗi trận đấu."]
+        },
+        {
+          "tag": "Giới hạn phạm lỗi",
+          "patterns": ["Có bao nhiêu lượt phạm lỗi được cho phép cho mỗi cầu thủ trong NBA và FIBA?",
+                "Hãy so sánh quy tắc về giới hạn phạm lỗi giữa NBA và FIBA.",
+                "Có sự khác biệt nào về giới hạn phạm lỗi giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA áp dụng giới hạn phạm lỗi và điểm khác biệt quan trọng nhất.",
+                "Thế nào về số lần phạm lỗi mà một cầu thủ được phép trong NBA và FIBA?",
+                "Có những quy tắc cụ thể nào về giới hạn phạm lỗi trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về giới hạn phạm lỗi trong NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh giới hạn phạm lỗi giữa NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Tôi muốn hiểu rõ về quy tắc giới hạn phạm lỗi của NBA và FIBA. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về giới hạn phạm lỗi giữa NBA và FIBA mà tôi nên biết không?"],
+          "responses": ["Giới hạn phạm lỗi cá nhân ở NBA được đặt ra là 6, trong khi FIBA chỉ cho phép mỗi cầu thủ phạm 5 lỗi."]
+        },
+        {
+          "tag": "Lỗi Flagrant",
+          "patterns": ["Lỗi flagrant trong NBA và FIBA khác nhau như thế nào?",
+                "Hãy so sánh quy tắc về lỗi flagrant giữa NBA và FIBA.",
+                "Có sự khác biệt nào về lỗi flagrant giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA định nghĩa và áp dụng lỗi flagrant, và điểm khác biệt quan trọng nhất.",
+                "Thế nào về quy tắc lỗi flagrant mà NBA và FIBA thực hiện?",
+                "Có những quy tắc cụ thể nào về lỗi flagrant trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về sự khác biệt về lỗi flagrant giữa NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh lỗi flagrant giữa NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Tôi muốn hiểu rõ về cách NBA và FIBA định nghĩa và áp dụng lỗi flagrant. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về lỗi flagrant giữa NBA và FIBA mà tôi nên biết không?"],
+          "responses": ["Lỗi Flagrant 1 (Cố ý cấp độ 1) và lỗi Flagrant 2 không tồn tại trong FIBA. Thay vào đó, những lỗi đó đều là lỗi phản tinh thần thể thao. Trong hầu hết các trường hợp, chúng tương tự như lỗi Flagrant 1. Những đội bị thổi lỗi phản tinh thần thể thao sẽ phải chịu 2 quả ném phạt và mất quyền kiểm soát bóng, tương tự lỗi Flagrant ở NBA."]
+        },
+        {
+          "tag": "Quy định về cầu thủ bị truất quyền thi đấu",
+          "patterns": ["Quy định về cầu thủ bị truất quyền thi đấu trong NBA và FIBA có gì khác nhau?",
+                "Hãy so sánh cách NBA và FIBA quản lý cầu thủ bị truất quyền thi đấu.",
+                "Có sự khác biệt nào về quy định cầu thủ bị truất quyền thi đấu giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA định nghĩa và áp dụng quy định cầu thủ bị truất quyền thi đấu, và điểm khác biệt quan trọng nhất.",
+                "Thế nào về quy tắc cầu thủ bị truất quyền thi đấu mà NBA và FIBA thực hiện?",
+                "Có những quy tắc cụ thể nào về cầu thủ bị truất quyền thi đấu trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về sự khác biệt về quy định cầu thủ bị truất quyền thi đấu giữa NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh quy định cầu thủ bị truất quyền thi đấu giữa NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Tôi muốn hiểu rõ về cách NBA và FIBA quản lý cầu thủ bị truất quyền thi đấu. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về quy định cầu thủ bị truất quyền thi đấu giữa NBA và FIBA mà tôi nên biết không?"],
+          "responses": ["Ở cả 2 hệ thống NBA và FIBA, một cầu thủ sẽ bị truất quyền thi đấu nếu bị thổi 2 lỗi kỹ thuật hoặc 2 lỗi phản tinh thần thể thao trong một trận đấu."]
+        },
+        {
+          "tag": "Tình huống Goaltending",
+          "patterns": ["Tình huống Goaltending trong NBA và FIBA khác nhau như thế nào?",
+                "Hãy so sánh quy tắc về Goaltending giữa NBA và FIBA.",
+                "Có sự khác biệt nào về tình huống Goaltending giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA định nghĩa và áp dụng quy tắc về Goaltending, và điểm khác biệt quan trọng nhất.",
+                "Thế nào về quy tắc Goaltending mà NBA và FIBA thực hiện?",
+                "Có những quy tắc cụ thể nào về tình huống Goaltending trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về sự khác biệt về tình huống Goaltending giữa NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh quy tắc Goaltending giữa NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Tôi muốn hiểu rõ về cách NBA và FIBA quản lý tình huống Goaltending. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về tình huống Goaltending giữa NBA và FIBA mà tôi nên biết không?"],
+          "responses": ["Trong cả hai bộ luật, điểm số đều không được tính nếu một cầu thủ chặn cú ném của đối phương sau khi bóng đã bắt đầu đi xuống và chưa chạm vành rổ."]
+        },
+        {
+          "tag": "Lỗi Interference",
+          "patterns": ["Lỗi Interference trong NBA và FIBA khác nhau như thế nào?",
+                "Hãy so sánh quy tắc về lỗi Interference giữa NBA và FIBA.",
+                "Có sự khác biệt nào về lỗi Interference giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA định nghĩa và áp dụng quy tắc về lỗi Interference, và điểm khác biệt quan trọng nhất.",
+                "Thế nào về quy tắc lỗi Interference mà NBA và FIBA thực hiện?",
+                "Có những quy tắc cụ thể nào về lỗi Interference trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về sự khác biệt về lỗi Interference giữa NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh quy tắc lỗi Interference giữa NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Tôi muốn hiểu rõ về cách NBA và FIBA quản lý lỗi Interference. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về lỗi Interference giữa NBA và FIBA mà tôi nên biết không?"],
+          "responses": ["Các cầu thủ không thể chạm vào bóng khi nó ở phía trên vành rổ và trong hình trụ tưởng tượng ở NBA, cầu thủ can thiệp sẽ bị thổi lỗi Interference. Trong khi đó, luật FIBA không có lỗi Interference và các cầu thủ được phép tác động vào bóng ngay sau khi nó chạm vào vành rổ, bất chấp bóng đã rời khỏi vành rổ hay hình trụ tưởng tượng hay chưa."]
+        },
+        {
+          "tag": "Luật Jump ball",
+          "patterns": ["Cách thức tổ chức Jump ball khác nhau giữa NBA và FIBA là gì?",
+                "Hãy so sánh quy tắc Jump ball giữa NBA và FIBA.",
+                "Có sự khác biệt nào về luật Jump ball giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA xác định quy tắc Jump ball và điểm khác biệt quan trọng nhất.",
+                "Thế nào về quy tắc Jump ball mà NBA và FIBA thực hiện?",
+                "Có những quy định cụ thể nào về Jump ball trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về sự khác biệt về quy tắc Jump ball giữa NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh quy tắc Jump ball giữa NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Tôi muốn hiểu rõ về cách NBA và FIBA tổ chức Jump ball. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về luật Jump ball giữa NBA và FIBA mà tôi nên biết không?"
+          ],
+          "responses": ["Về cách thức tổ chức, trong NBA, trọng tài sẽ ném bóng lên cho hai cầu thủ từ hai đội đối đầu nhau để bắt đầu trận đấu, còn trong FIBA, trọng tài thường sẽ tạo một vòng tròn thường có tổng cộng bốn cầu thủ tham gia Jump ball. Hai trong số họ tham gia trong việc tranh quyền kiểm soát bóng trong vòng tròn, trong khi hai cầu thủ khác đứng ở xa. Về quy tắc khi cầu thủ nhảy quá sớm trong NBA, nếu một hoặc cả hai cầu thủ nhảy quá sớm, trọng tài sẽ tiến hành Jump ball lại, còn trong FIBA, nếu cầu thủ nhảy quá sớm, đội đối phương sẽ được quyền kiểm soát bóng."]
+        },
+        {
+          "tag": "Play reviews - Xem lại tình huống",
+          "patterns": ["Cách tổ chức Play reviews khác nhau giữa NBA và FIBA là gì?",
+                "Hãy so sánh quy tắc về Play reviews giữa NBA và FIBA.",
+                "Có sự khác biệt nào về việc xem lại tình huống giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA thực hiện quy tắc về Play reviews, và điểm khác biệt quan trọng nhất.",
+                "Thế nào về quy tắc Play reviews mà NBA và FIBA thực hiện?",
+                "Có những quy định cụ thể nào về việc xem lại tình huống trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về sự khác biệt về Play reviews giữa NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh quy tắc Play reviews giữa NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Tôi muốn hiểu rõ về cách NBA và FIBA tổ chức việc xem lại tình huống. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về Play reviews giữa NBA và FIBA mà tôi nên biết không?"],
+          "responses": ["FIBA không có Coach Challenge dành cho huấn luyện viên như NBA. Các quyết định có xem lại băng ghi hình để quyết định tình huống sẽ phụ thuộc hoàn toàn vào các trọng tài. Thông thường các trọng tài sẽ yêu cầu xem lại khi muốn đưa ra lỗi cá nhân, phản tinh thần thể thao hoặc bị truất quyền thi đấu."]
+        },
+        {
+          "tag": "Luật 3 giây phòng thủ",
+          "patterns": ["Luật 3 giây phòng thủ trong NBA và FIBA khác nhau như thế nào?",
+                "Hãy so sánh quy tắc về 3 giây phòng thủ giữa NBA và FIBA.",
+                "Có sự khác biệt nào về Luật 3 giây phòng thủ giữa NBA và FIBA không?",
+                "Xin vui lòng giải thích cách NBA và FIBA định nghĩa và áp dụng quy tắc về 3 giây phòng thủ, và điểm khác biệt quan trọng nhất.",
+                "Thế nào về quy tắc 3 giây phòng thủ mà NBA và FIBA thực hiện?",
+                "Có những quy định cụ thể nào về 3 giây phòng thủ trong NBA và FIBA?",
+                "Xin hãy cho tôi biết về sự khác biệt về Luật 3 giây phòng thủ giữa NBA và FIBA, và cách chúng có thể ảnh hưởng đến trận đấu.",
+                "Khi so sánh quy tắc 3 giây phòng thủ giữa NBA và FIBA, điểm khác biệt nào đáng chú ý nhất?",
+                "Tôi muốn hiểu rõ về cách NBA và FIBA quản lý Luật 3 giây phòng thủ. Bạn có thể cung cấp thông tin chi tiết không?",
+                "Có sự khác biệt về Luật 3 giây phòng thủ giữa NBA và FIBA mà tôi nên biết không?"],
+          "responses": ["Luật này cấm một cầu thủ không được ở trong khu vực paint quá 3 giây. Tuy nhiên NBA cấm cầu thủ không được ở trong khu vực paint quá 3 giây khi tấn công lẫn phòng ngự. Trong khi đó, FIBA chỉ cấm cầu thủ tấn công, còn phòng thủ thì không."]
+        },
+
+        {
+          "tag": "Tình huống liên quan đến kích thước sân",
+          "patterns": ["Tôi đang chơi bóng rổ ở giải NBA, khi được gọi tập trung lên tuyển quốc gia và thi đấu quốc tế theo hệ thống FIBA, việc phòng thủ trở nên dễ dàng hơn. Theo bạn, điều gì có thể gây ra sự khác biệt này trong việc bịt kín khoảng trống?",
+                "Tôi đang chơi bóng rổ ở giải NBA, khi được gọi tập trung lên tuyển quốc gia và thi đấu quốc tế theo hệ thống FIBA, việc phòng thủ trở nên dễ dàng hơn. Có vẻ do sự khác biệt về kích thước sân thi đấu giữa NBA và FIBA?",
+                "Tôi đang chơi bóng rổ ở giải NBA, khi được gọi tập trung lên tuyển quốc gia và thi đấu quốc tế theo hệ thống FIBA, việc phòng thủ trở nên dễ dàng hơn. Bạn có nghĩ rằng sự khác biệt về kích thước sân ảnh hưởng đến chiến thuật phòng thủ của đội bóng trong hệ thống NBA so với FIBA"],
+          "responses": ["Sân thi đấu tiêu chuẩn NBA là dài 28m65, rộng 15m24. Trong khi đó, kích thước tiêu chuẩn theo quy định của FIBA là 28m và rộng 15m. Rõ ràng, sân FIBA nhỏ hơn ở NBA và điều đó mang lại lợi thế cho bên phòng thủ khi dễ dàng bịt kín các khoảng trống hơn."]
+        },
+        {
+          "tag": "Tình huống liên quan đến cự ly khu vực 3 điểm",
+          "patterns": ["Tôi vừa mới ném vào rổ cự ly 7m thì được ghi là bao nhiêu điểm",
+                "Nếu tôi thực hiện một cú ném thành công từ cự ly 7m, điều này sẽ đem lại bao nhiêu điểm trong luật bóng rổ?",
+                "Theo quy định hiện hành, cú ném vào rổ từ cự ly 7m trong bóng rổ sẽ được tính là mấy điểm?"],
+          "responses": ["Nếu trong FIBA là bạn sẽ được 3 điểm vì trong FIBA cự ly rổ 3 điểm là 6m75, còn nếu trong FIBA là bạn sẽ được 1 điểm vì NBA cự ly rổ 3 điểm là 7m24"]
+        },
+        {
+          "tag": "Tình huống liên quan đến thời gian thi đấu mỗi hiệp",
+          "patterns": ["Tôi và Huy đang tranh luận về thời gian thi đấu mỗi hiệp trong bóng rổ, theo tôi mỗi hiệp kéo dài 12 phút, theo Huy là 10 phút. Tôi cần biết quy tắc chính xác về thời gian thi đấu mỗi hiệp trong bóng rổ. Bạn nghĩ anh ấy có thể đang lẫn lộn với quy định của một liên đoàn hay giải đấu nào đó không?",
+                "Tôi và Huy đang tranh luận về thời gian thi đấu mỗi hiệp trong bóng rổ, theo tôi mỗi hiệp kéo dài 12 phút, theo Huy là 10 phút. Hãy giải đáp vấn đề này?",
+                "Tôi và Huy đang tranh luận về thời gian thi đấu mỗi hiệp trong bóng rổ, theo tôi mỗi hiệp kéo dài 12 phút, theo Huy là 10 phút. Có những nguồn thông tin cụ thể nào mà chúng ta có thể kiểm tra?"],
+          "responses": ["Mỗi hiệp đấu ở NBA kéo dài 12 phút, trong khi mỗi hiệp thi đấu của FIBA dài 10 phút."]
+        },
+        {
+          "tag": "Tình huống iên quan tới lỗi Interference",
+          "patterns": ["Tôi thi đấu bóng rổ và gặp tình huống tác động vào bóng ngay sau khi nó chạm vào vành rổ, bất chấp bóng đã rời khỏi vành rổ, không biết đây có phải lỗi hay không?",
+                "Tôi thi đấu bóng rổ và gặp tình huống tác động vào bóng ngay sau khi nó chạm vào vành rổ, bất chấp bóng đã rời khỏi vành rổ. Theo quy định hiện tại, điều này được coi là lỗi không?",
+                "Tôi thi đấu bóng rổ và gặp tình huống tác động vào bóng ngay sau khi nó chạm vào vành rổ, bất chấp bóng đã rời khỏi vành rổ. Có những nguồn thông tin nào về quy định và tình huống tương tự mà chúng ta có thể tham khảo để làm rõ vấn đề này?"],
+          "responses": ["Các cầu thủ không thể chạm vào bóng khi nó ở phía trên vành rổ và trong hình trụ tưởng tượng ở NBA, cầu thủ can thiệp sẽ bị thổi lỗi Interference. Trong khi đó, luật FIBA không có lỗi này. Tóm lại tình huống này còn tùy thuộc vào việc bạn đang chơi theo hệ thống thi đấu nào."]
+        }
+ 
+      
+ ]
+  }
